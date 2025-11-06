@@ -43,6 +43,7 @@ Run migrations:
 flask db upgrade
 
 3️⃣ Seed the database
+
 python seed.py
 
 4️⃣ Start the server
