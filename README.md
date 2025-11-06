@@ -125,6 +125,8 @@ SQLAlchemy
 
 Flask-Migrate
 
+Postgres
+
 Alembic
 
 REST API JSON
