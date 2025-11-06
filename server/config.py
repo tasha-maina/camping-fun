@@ -7,7 +7,7 @@ migrate = Migrate()
 
 def create_app():
     app = Flask(__name__)
-    app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://postgres:admin123@localhost:5432/camping"
+    app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv(DATABASE_URl")
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
     db.init_app(app)
